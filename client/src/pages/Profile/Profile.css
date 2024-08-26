@@ -1,0 +1,15 @@
+
+@media only screen and (max-width:80rem){
+    .Profile{
+        display: flex;
+        flex-direction: column;
+    }
+    .InputProfile{
+        width: 223px;
+        border-radius: 6px;
+    }
+    .InputeProfile{
+        width: 244px;
+        border-radius: 6px;
+    }
+}

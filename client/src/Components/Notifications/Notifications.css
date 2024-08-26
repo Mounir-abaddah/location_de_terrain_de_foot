@@ -1,0 +1,33 @@
+/* Notifications.css */
+
+.notification-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.notification-table th, .notification-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.notification-table th {
+    background-color: #f2f2f2;
+}
+
+.notification-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.notification-table tr:hover {
+    background-color: #ddd;
+}
+
+.text-notification {
+    cursor: pointer;
+    color: red;
+}
+
+.text-notification:hover {
+    text-decoration: underline;
+}

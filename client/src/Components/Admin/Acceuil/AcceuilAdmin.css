@@ -1,0 +1,11 @@
+
+@media only screen and (max-width:80rem){
+    .admine-acceuil{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 51vh;
+        width: 68vw;
+    }
+}

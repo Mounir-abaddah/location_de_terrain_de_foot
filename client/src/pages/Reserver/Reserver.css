@@ -1,0 +1,64 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 17px;
+}
+.form h1{
+    font-weight: 600;
+    border-bottom: 4px solid #009ef4;
+    border-radius: 6px;
+    width: fit-content;
+    font-size: 23px;
+}
+.page-title{
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.row{
+    display: flex;
+    gap: 14px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 8px;
+}
+.ant-picker-input input{
+    border: none !important;
+    height: 47px;
+}
+.SUBMIT{
+    display: flex !important;
+    align-items: end;
+    justify-content: end;
+}
+.envoyer{
+    background-color: #009ef4;
+    color: white;
+    font-weight: 700;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+}
+.Input{
+    border-radius: 6px;
+    width: 232px;
+    height: 38px;
+}
+.reserver{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 65vh;
+    gap: 27px;
+}
+@media only screen and (max-width:80rem){
+.gg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+}

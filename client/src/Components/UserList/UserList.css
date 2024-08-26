@@ -1,0 +1,17 @@
+.users {
+    border: 3px solid #009ef4;
+    width: fit-content;
+    padding: 8px 39px;
+    border-radius: 6px;
+    background-color: aliceblue;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .users {
+      width: 100%;
+      padding: 8px 16px;
+    }
+    .ant-table {
+      overflow-x: auto;
+    }
+  }

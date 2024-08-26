@@ -1,0 +1,101 @@
+.section_register {
+  background-image: url("../../assets/img/logo_login.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 100%;
+}
+.authentification {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.authentification-form {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  box-shadow: -1px 4px 8px 1px;
+  gap: 17px;
+}
+.authentification-form-register {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 769px;
+  box-shadow: -1px 4px 8px 1px;
+}
+input {
+  border-radius: 6px;
+  border: 1px solid gray !important;
+}
+label {
+  font-size: 16px;
+  font-weight: 600;
+}
+.primary-button {
+  width: 100% !important;
+  height: 44px;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #6b46c1 !important;
+}
+.link {
+  color: #000;
+  font-size: 16px;
+  font-weight: 800;
+  position: relative;
+  top: 16px;
+  display: flex;
+  padding-left: 183px;
+}
+.card-title {
+  margin-left: -7%;
+  width: fit-content;
+  padding: 10px;
+  max-width: max-content;
+  font-weight: bold;
+}
+.footer {
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 80rem) {
+  .link {
+    position: relative;
+    top: 0 !important;
+    color: #000;
+    left: -117px;
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    padding-left: 183px;
+    width: 162%;
+  }
+  .authentification {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .authentification-form {
+    width: 80%;
+  }
+  .card-title {
+    margin-left: -16%;
+  }
+  .authentification-form-register {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 735px;
+    box-shadow: -1px 4px 8px 1px;
+  }
+}
